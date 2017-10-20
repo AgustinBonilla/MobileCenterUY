@@ -134,7 +134,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MobileCenterUY\MobileCenterUY.csproj">
-      <Project>{fb2e4150-b5e2-44af-957e-63ca516ce51f}</Project>
+      <Project>{158E3B7F-6960-43E6-91D3-11D986B541CC}</Project>
       <Name>MobileCenterUY</Name>
     </ProjectReference>
   </ItemGroup>
