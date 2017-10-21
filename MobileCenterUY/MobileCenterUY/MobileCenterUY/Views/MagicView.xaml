@@ -7,9 +7,9 @@
                 </Image>
             </StackLayout>
             <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-                <Button Text="Analytic" HeightRequest="100"  Margin="30" BackgroundColor="#5edb8c" Clicked="BtnAnalytic_Clicked">
+                <Button x:Name="BtnLogEvent" Text="Log Event" HeightRequest="100"  Margin="30" BackgroundColor="#5edb8c" Clicked="BtnLogEvent_Clicked">
                 </Button>
-                <Button Text="Crash" HeightRequest="100"  Margin="30" BackgroundColor="#db655e" Clicked="BtnCrash_Clicked">
+                <Button x:Name="BtnCrash" Text="Crash" HeightRequest="100"  Margin="30" BackgroundColor="#db655e" Clicked="BtnCrash_Clicked">
                 </Button>
             </StackLayout>
         </StackLayout>

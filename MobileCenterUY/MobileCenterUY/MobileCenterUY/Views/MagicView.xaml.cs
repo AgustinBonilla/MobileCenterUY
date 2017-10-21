@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using System.Threading.Tasks;
+using Microsoft.Azure.Mobile.Analytics;
 using Xamarin.Forms;
 
 namespace MobileCenterUY.Views
@@ -12,14 +13,25 @@ namespace MobileCenterUY.Views
             InitializeComponent();
         }
 
-        void BtnAnalytic_Clicked(object sender, System.EventArgs e)
+        void BtnLogEvent_Clicked(object sender, System.EventArgs e)
         {
-            
+            Analytics.TrackEvent("Button clicked");
+            BtnLogEvent.Text = "Logged!";
+            BtnLogEvent.BackgroundColor = Color.FromHex("#f2e45e");
+
+            Task.Run(async() =>
+            {
+                await Task.Delay(5000);
+                Device.BeginInvokeOnMainThread(()=>{
+					BtnLogEvent.BackgroundColor = Color.FromHex("#5edb8c");
+					BtnLogEvent.Text = "Log event";
+                });
+            });
         }
 
         void BtnCrash_Clicked(object sender, System.EventArgs e)
         {
-            throw new Exception("My exception");
+            throw new Exception("My exception in Mobile Center UY");
         }
     }
 }
