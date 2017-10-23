@@ -146,6 +146,9 @@
     <AndroidResource Include="Resources\drawable-hdpi\netconfuy_logo.png" />
     <AndroidResource Include="Resources\drawable-hdpi\mobilecenteruy_logo.png" />
     <AndroidResource Include="Resources\drawable-hdpi\splashscreen.png" />
+    <AndroidResource Include="Resources\drawable\splashscreen.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\splashscreen.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\splashscreen.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\AndroidManifest.xml" />

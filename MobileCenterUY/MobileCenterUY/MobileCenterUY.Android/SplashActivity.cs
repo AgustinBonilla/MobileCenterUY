@@ -13,7 +13,7 @@ using Android.Widget;
 
 namespace MobileCenterUY.Droid
 {
-	[Activity(Label = "MobileCenterUYSplash", Icon = "@drawable/icon", Theme = "@style/splashscreen", MainLauncher = false, NoHistory = true)]
+	[Activity(Label = "MobileCenterUY", Icon = "@drawable/icon", Theme = "@style/splashscreen", MainLauncher = true, NoHistory = true)]
 	public class SplashActivity : Activity
 	{
 		protected override void OnCreate(Bundle savedInstanceState)
