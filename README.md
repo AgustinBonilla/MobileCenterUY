@@ -48,6 +48,7 @@ Revisamos crashes y analytics en MC
 
 ## Aclaraciones
 
+-  Los certificados de iOS y Android se encuentran en el root del repo > Certificados
 -  Dado que para iOS utilizamos un certificado In House, debemos confiar en dicho certificado: General > Profile > tecnoliv.sa > Trust "tecnoliv.sa"
 -  Key Alias para keystore de Android: MobileCenterUY-adhoc
 -  Password de los certificados (iOS y Android): 123456
