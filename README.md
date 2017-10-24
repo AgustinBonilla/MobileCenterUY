@@ -46,15 +46,24 @@ Instalamos aplicación y comentamos la app magica.
 Revisamos crashes y analytics en MC
 
 
-## Aclaraciones
 
--  Los certificados de iOS y Android se encuentran en el root del repo > Certificados
+## Aclaraciones para iOS
 
--  Dado que para iOS utilizamos un certificado In House, debemos confiar en dicho certificado: Configuration > General > Device Management > tecnoliv.sa > Trust "tecnoliv.sa"
+-  Los certificados de iOS se encuentran en el root del repo > Certificates > iOS
+
+-  Dado que utilizamos un certificado In House de Apple, debemos confiar en dicho certificado: Configuration > General > Device Management > tecnoliv.sa > Trust "tecnoliv.sa"
+
+-  Password del certificado: 123456
+
+
+
+## Aclaraciones para Android
+
+-  El certificado de Android se encuentran en el root del repo > Certificates > Android
 
 -  Para permitir correr la app en Android activar Origenes desconocidos: Configuración > Seguridad > Orígenes desconocidos
 
 -  Key Alias para keystore de Android: MobileCenterUY-adhoc
 
--  Password de los certificados (iOS y Android): 123456
+-  Password del keystore y key password: 123456
 
