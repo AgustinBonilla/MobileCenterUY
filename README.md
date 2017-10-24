@@ -21,9 +21,9 @@ Fork y Clone de Proyecto Xamarin en GitHub
 
 Login en MC y crear nueva App
 
-Hablamos sobre BUILD
-
 Chequeamos Distribución
+
+Hablamos sobre BUILD
 
 Configuramos el Build (utilizando los certificados en el repo y configuracion Release)
 
@@ -49,7 +49,12 @@ Revisamos crashes y analytics en MC
 ## Aclaraciones
 
 -  Los certificados de iOS y Android se encuentran en el root del repo > Certificados
--  Dado que para iOS utilizamos un certificado In House, debemos confiar en dicho certificado: General > Profile > tecnoliv.sa > Trust "tecnoliv.sa"
+
+-  Dado que para iOS utilizamos un certificado In House, debemos confiar en dicho certificado: Configuration > General > Device Management > tecnoliv.sa > Trust "tecnoliv.sa"
+
+-  Para permitir correr la app en Android activar Origenes desconocidos: Configuración > Seguridad > Orígenes desconocidos
+
 -  Key Alias para keystore de Android: MobileCenterUY-adhoc
+
 -  Password de los certificados (iOS y Android): 123456
 
