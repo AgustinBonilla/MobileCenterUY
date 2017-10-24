@@ -15,11 +15,11 @@ En la primera parte del workshop todos podrán distribuir de forma automatizada 
 
 **1er Parte**
 
-Presentación del equipo y hablamos sobre DevOps y Mobile Center
+Hablamos sobre DevOps y Mobile Center
+
+Fork y Clone de Proyecto Xamarin en GitHub
 
 Login en MC y crear nueva App
-
-Fork y Clone de GitHub
 
 Hablamos sobre BUILD
 
