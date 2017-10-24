@@ -1,6 +1,11 @@
 # MobileCenterUY
 
 
+|Platform|Status|
+| ------------------- | :-----------: |
+|Android|![](https://build.mobile.azure.com/v0.1/apps/dcf38054-7dd9-43a5-a2fd-5a53360e1f12/branches/feature%2FiOSUpload/badge)|
+|iOS|![](https://build.mobile.azure.com/v0.1/apps/3ef7e7d3-f86c-4bd9-bd5a-dec16e2ce425/branches/feature%2FiOSUpload/badge)|
+
 En este workshop haremos un repaso por el nuevo Visual Studio Mobile Center y luego llevaremos a cabo la configuración de un proceso DevOps Mobile totalmente automatizado para el ciclo de vida de nuestras aplicaciones de forma más rápida y simple. 
 
 Utilizaremos un proyecto Xamarin Forms en GitHub para integrarlo a Mobile Center en donde configuraremos las etapas de Build, Test, Distribution, Analytics y Crashes. 
@@ -18,9 +23,9 @@ Fork y Clone de GitHub
 
 Hablamos sobre BUILD
 
-Configuramos Distribución (grupo público y nos agregamos como usuario para que llegue el mail)
+Configuramos Distribución (grupo público y nos agregamos como usuario para que llegue el mail) ?????
 
-Configuramos el Build (utilizando los certificados en el repo y configuracion Ad-Hoc)
+Configuramos el Build (utilizando los certificados en el repo y configuracion Release)
 
 Lanzar Build manualmente desde MC.
  
