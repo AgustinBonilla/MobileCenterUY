@@ -115,6 +115,9 @@
     <BundleResource Include="Resources\Icon-Small%402x.png" />
     <BundleResource Include="Resources\Icon-Small%403x.png" />
     <BundleResource Include="Resources\Icon-Small-40%402x.png" />
+    <BundleResource Include="Resources\imgMobileCenterUY.png" />
+    <BundleResource Include="Resources\imgMobileCenterUY%402.png" />
+    <BundleResource Include="Resources\imgMobileCenterUY%403.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
