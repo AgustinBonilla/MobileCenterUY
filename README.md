@@ -23,7 +23,7 @@ Fork y Clone de GitHub
 
 Hablamos sobre BUILD
 
-Configuramos Distribución (grupo público y nos agregamos como usuario para que llegue el mail) ?????
+Chequeamos Distribución
 
 Configuramos el Build (utilizando los certificados en el repo y configuracion Release)
 
