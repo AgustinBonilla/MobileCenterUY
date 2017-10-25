@@ -11,8 +11,10 @@ En este workshop haremos un repaso por el nuevo Visual Studio Mobile Center y lu
 Utilizaremos un proyecto Xamarin Forms en GitHub para integrarlo a Mobile Center en donde configuraremos las etapas de Build, Test, Distribution, Analytics y Crashes. 
 En la primera parte del workshop todos podrán distribuir de forma automatizada una aplicación simple e instalarla en sus dispositivos y luego en la segunda parte, en conjunto a una aplicación con mejoras, estaremos viendo más funcionalidades vinculadas a la plataforma. 
 
-## Paso a paso
+<br/>
 
+## Paso a paso
+<br/>
 **1er Parte**
 
 Hablamos sobre DevOps y Mobile Center
@@ -25,15 +27,17 @@ Chequeamos Distribución
 
 Hablamos sobre BUILD
 
-Configuramos el Build (utilizando los certificados en el repo y configuracion Release)
+Configuramos el Build (utilizando los certificados en el repo y configuración Release)
 
 Lanzar Build manualmente desde MC.
- 
+
+<br/>
+
 **2da Parte**
 
 Instalaremos la aplicación y comentamos la app básica.
 
-Cargamos keys de MC para analytics y Crashes, descomentamos la magia y push al repo
+Cargamos keys de MC para analytics y Crashes, descomentamos la mágia y push al repo
 
 Hablamos sobre CRASHES & ANALYTICS
 
@@ -41,11 +45,12 @@ Hablamos sobre DISTRIBUTION
 
 Sobre TEST y PUSH (no aplica al workshop)
 
-Instalamos aplicación y comentamos la app magica.
+Instalamos aplicación y comentamos app mágica.
 
 Revisamos crashes y analytics en MC
 
 
+<br/>
 
 ## Aclaraciones para iOS
 
@@ -55,6 +60,7 @@ Revisamos crashes y analytics en MC
 
 -  Password del certificado: 123456
 
+<br/>
 
 
 ## Aclaraciones para Android
@@ -67,8 +73,11 @@ Revisamos crashes y analytics en MC
 
 -  Password del keystore y key password: 123456
 
+<br/>
 
 ## Links
 
 Mobile Center: https://mobile.azure.com
+
+Portal de tus aplicaciones: https://install.mobile.azure.com/apps
 
