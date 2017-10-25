@@ -67,3 +67,8 @@ Revisamos crashes y analytics en MC
 
 -  Password del keystore y key password: 123456
 
+
+## Links
+
+Mobile Center: https://mobile.azure.com
+
