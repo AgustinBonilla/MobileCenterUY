@@ -14,7 +14,9 @@ En la primera parte del workshop todos podrán distribuir de forma automatizada 
 <br/>
 
 ## Paso a paso
+
 <br/>
+
 **1er Parte**
 
 Hablamos sobre DevOps y Mobile Center
@@ -37,7 +39,7 @@ Lanzar Build manualmente desde MC.
 
 Instalaremos la aplicación y comentamos la app básica.
 
-Cargamos keys de MC para analytics y Crashes, descomentamos la mágia y push al repo
+Cargamos keys de MC para analytics y Crashes, descomentamos la magia y push al repo
 
 Hablamos sobre CRASHES & ANALYTICS
 
