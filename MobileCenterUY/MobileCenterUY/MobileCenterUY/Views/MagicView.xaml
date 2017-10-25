@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MobileCenterUY.Views.MagicView">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" BackgroundColor="White">
+            <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                <Image Source="netconfuy_logo.png" Aspect="AspectFit" Margin="20,100,20,0">
+                </Image>
+            </StackLayout>
+            <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                <Button x:Name="BtnLogEvent" Text="Log Event" HeightRequest="100"  Margin="30" BackgroundColor="#5edb8c" TextColor="White" Clicked="BtnLogEvent_Clicked">
+                </Button>
+                <Button x:Name="BtnCrash" Text="Crash" HeightRequest="100"  Margin="30" BackgroundColor="#db655e" TextColor="White" Clicked="BtnCrash_Clicked">
+                </Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
