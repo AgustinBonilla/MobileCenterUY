@@ -62,6 +62,8 @@ Revisamos crashes y analytics en MC
 
 -  Password del certificado: 123456
 
+-  Para registrar Crashes en iOS se debe subir previamente el archivo MobileCenterUY.iOS.app.dSYM.zip en Crashes > Symbols
+
 <br/>
 
 
