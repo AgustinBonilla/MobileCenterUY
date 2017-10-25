@@ -150,6 +150,8 @@
     <AndroidResource Include="Resources\drawable\splashscreen.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\splashscreen.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\splashscreen.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\netconfuy_logo.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\netconfuy_logo.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\AndroidManifest.xml" />
