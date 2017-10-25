@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.Azure.Mobile.Analytics;
+using Microsoft.Azure.Mobile.Crashes;
 using Xamarin.Forms;
 
 namespace MobileCenterUY.Views
@@ -31,7 +32,8 @@ namespace MobileCenterUY.Views
 
         void BtnCrash_Clicked(object sender, System.EventArgs e)
         {
-            throw new Exception("My exception in Mobile Center UY");
+            Crashes.GenerateTestCrash();
+            //throw new Exception("My exception in Mobile Center UY");
         }
     }
 }
