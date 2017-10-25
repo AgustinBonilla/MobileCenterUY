@@ -32,8 +32,7 @@ namespace MobileCenterUY.Views
 
         void BtnCrash_Clicked(object sender, System.EventArgs e)
         {
-            Crashes.GenerateTestCrash();
-            //throw new Exception("My exception in Mobile Center UY");
+            throw new Exception("My exception in Mobile Center UY");
         }
     }
 }
