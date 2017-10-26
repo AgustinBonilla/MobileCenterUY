@@ -85,3 +85,7 @@ Mobile Center: https://mobile.azure.com
 
 Portal de tus aplicaciones: https://install.mobile.azure.com/apps
 
+
+## Survey
+
+https://goo.gl/forms/xv7AUEtnH6FxtbOs2
